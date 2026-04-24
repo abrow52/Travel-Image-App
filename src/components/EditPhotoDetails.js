@@ -76,7 +76,7 @@ function EditPhotoDetails({ photo, updatePhoto }) {
     updatePhoto(updated);
   };
 
-  const imgUrl = `http://www.randyconnolly.com/funwebdev/3rd/images/travel/medium640/${photo.filename}`;
+  const imgUrl = `https://www.randyconnolly.com/funwebdev/3rd/images/travel/medium640/${photo.filename}`;
 
   return (
     <Details>
